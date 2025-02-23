@@ -17,7 +17,7 @@ if firebase_key_json:
     # Initialize Firebase only if not already initialized
     if not firebase_admin._apps:
         firebase_admin.initialize_app(cred, {
-            "databaseURL": "https://nebullyte-af714-default-rtdb.asia-southeast1.firebasedatabase.app/"
+            "databaseURL": "https://kavya-6ed82-default-rtdb.firebaseio.com/"
         })
 else:
     st.error("Firebase key is missing. Please set the FIREBASE_KEY environment variable.")
