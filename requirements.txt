@@ -1,0 +1,5 @@
+streamlit==1.15.2
+firebase-admin
+pandas
+plotly
+altair==4.2.0
